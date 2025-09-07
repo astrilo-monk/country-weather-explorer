@@ -19,6 +19,9 @@ A responsive web application to explore country information and weather data for
   - Displays the country info and capital weather instantly.
 - Responsive design that works on both desktop and mobile.
 
+## Something creative I tried
+- Enter a city, state, or country, and the app will automatically show the corresponding country along with its weather and other details.
+
 ---
 
 ## APIs Used
