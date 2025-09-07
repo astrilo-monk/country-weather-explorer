@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Country & Capital Weather Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+  <div class="card">
+    <div class="header">
+      <h1>Country & Weather Explorer</h1>
+      <span class="moon">🌙</span>
+      <button id="geo-btn" class="geo-btn">Use My Location</button>
+    </div>
+
+    <form id="search-form" class="search">
+      <input id="q" placeholder="Enter a country, state, or city" autocomplete="off" />
+      <button type="submit">Search</button>
+      <ul id="suggestions" class="suggestions"></ul>
+    </form>
+
+    <div id="status"></div>
+    <div id="loader" class="loader hidden"></div>
+    <div id="results"></div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
